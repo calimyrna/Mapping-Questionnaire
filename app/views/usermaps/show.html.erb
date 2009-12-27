@@ -1,0 +1,13 @@
+<p>
+  <b>Email:</b>
+  <%=h @usermap.email %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @usermap.address %>
+</p>
+
+
+<%= link_to 'Edit', edit_usermap_path(@usermap) %> |
+<%= link_to 'Back', usermaps_path %>
